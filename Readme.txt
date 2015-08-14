@@ -10,12 +10,6 @@ Currently unable to view the contents of the retrieved voice text to next Activi
 - Possible solution for the above is to associate voice data to a string variable and access that variable in another activity.
 ? final String message1 = getIntent().getExtras().GetString ("Key") .
 
-Time Completion for Project - 
-
-Main Activity - 1 day
-Contact Information Activity - 5 days
-XML Files - 1 day each.
-Testing has been done throughout each activity.
 
 
 Sources - 
