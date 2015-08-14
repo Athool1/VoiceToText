@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView1"
+    android:layout_toLeftOf="@+id/textView1"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:background="#FFFFFF"
+    tools:context=".MainActivity" 
+    android:scaleType = "centerCrop" >
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/speak"
+        android:src="@android:drawable/ic_btn_speak_now" />
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSpeak"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Next" 
+        android:onClick="nextActivity"/>
+ 
+</RelativeLayout>
